@@ -1,2 +1,8 @@
 build:
-	cargo build --target thumbv7em-none-eabihf
+	cargo bootimage
+
+change_nightly:
+	rustup override set nightly
+
+install_rust_src:
+	rustup component add rust-src
