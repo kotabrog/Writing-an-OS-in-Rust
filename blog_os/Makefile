@@ -1,3 +1,9 @@
+run:
+	cargo run
+
+test:
+	cargo test
+
 build:
 	cargo bootimage
 
