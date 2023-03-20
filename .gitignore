@@ -7,4 +7,6 @@
 !.gitignore
 !Makefile
 !LICENSE
+!*.json
+!*.bat
 target/
